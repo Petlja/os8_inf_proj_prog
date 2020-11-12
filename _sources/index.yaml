@@ -1,0 +1,41 @@
+courseId: courseID 
+lang: en
+title: Petljadoc Course
+description:
+  willLearn: 
+    - Preview of Petljadoc course
+  requirements:
+    - Petljadoc
+    - Runestone
+    - Sphinx
+  toc:
+    - Intro to Petljadoc INDEX.yaml
+  externalLinks:  
+    - text: Sphinx Docs
+      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    - text: Petljadoc
+      href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
+    - text: Runestone Interactive
+      href: https://github.com/RunestoneInteractive/overview
+
+
+lessons:
+  - title: Lesson 1
+    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+    description: Your first lesson. Description is not required attribute
+    folder: 1_Lesson
+    activities:
+      - type: reading
+        title: Intro
+        file: intro.rst 
+        description: #Optional
+        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+      - type: video
+        title: Video activity for your lesson
+        decription: Nice video
+        url: https://www.youtube.com/watch?v=2KYuzJKemXw
+        guid: 978760d0-a133-4ffd-af30-85fdb38aa384
+      - type: quiz
+        title: Test your students
+        file: quiz.rst
+        guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
