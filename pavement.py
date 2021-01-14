@@ -3,7 +3,7 @@ import sys
 import paver
 from paver.easy import options, Bunch
 import paver.setuputils
-import pkg_resources
+
 #pylint: disable=unused-import
 from runestone import build  # build is called implicitly by the paver driver.
 
@@ -17,16 +17,14 @@ master_app = 'runestone'
 serving_dir = "./_build"
 dest = "../../static"
 
-
 options(
     sphinx = Bunch(docroot=".",),
-
     build = Bunch(
         builddir="./_build",
-        sourcedir="_intermediate",
+        sourcedir="_sources",
         outdir="./_build",
         confdir=".",
-        project_name = "8_projzad_analiza_podataka",
+        project_name = "8",
 
         # leave template_args empty, use html_context from conf.py
         template_args= {}
