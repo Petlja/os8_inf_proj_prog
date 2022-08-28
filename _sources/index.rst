@@ -15,6 +15,7 @@
 .. toctree::
     :maxdepth: 2
     
+    Projektno ucenje.rst
     PP1.rst
     PP2.rst
     PP3.rst
