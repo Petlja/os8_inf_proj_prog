@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum posvećen je priručnik za Projektnu nastavu za osmi razred računarstvo. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/biblioteka/r/kursevi/8_projzad_analiza_podataka](https://petlja.org/biblioteka/r/kursevi/8_projzad_analiza_podataka)
+Kurs je na Petljinom portalu dotupan ovde: [https://petlja.org/biblioteka/r/kursevi/8_projzad_analiza_podataka](https://petlja.org/biblioteka/r/kursevi/8_projzad_analiza_podataka)
 
 
 ## Konverzija u *HTML*
